@@ -7,20 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
     <div class="container">
-        <div> <img src="./pic/img1.jpeg" alt=""></div>
-        <div> <img src="./pic/img2.jpeg" alt=""></div>
-        <div> <img src="./pic/img3.jpeg" alt=""></div>
-        <div> <img src="./pic/img4.jpeg" alt=""></div>
-        <div> <img src="./pic/img5.jpeg" alt=""></div>
-        <div> <img src="./pic/img6.jpeg" alt=""></div>
-        <div> <img src="./pic/img7.jpeg" alt=""></div>
-        <div> <img src="./pic/img8.jpeg" alt=""></div>
-       
+        <div> <img id="pic1" class="img" src="./pic/img1.jpeg" alt=""></div>
+        <div> <img class="img" src="./pic/img2.jpeg" alt=""></div>
+        <div> <img class="img" src="./pic/img3.jpeg" alt=""></div>
+        <div> <img class="img" src="./pic/img4.jpeg" alt=""></div>
+        <div> <img class="img" src="./pic/img5.jpeg" alt=""></div>
+        <div> <img class="img" src="./pic/img6.jpeg" alt=""></div>
+        <div> <img class="img" src="./pic/img7.jpeg" alt=""></div>
+        <div> <img id="pic8" class="img" src="./pic/img8.jpeg" alt=""></div>
+
+
     </div>
+
+    <div class="showpic" id="show1">
+        <button class="prev-btn1" id="prev1"> <i class="bx bx-chevron-left"></i></button>
+        <img src="./pic/img1.jpeg" alt="">
+        <button class="next-btn" id="next"> <i class="bx bx-chevron-right"></i></button>
+        <button class="close-btn" id="close1"> <i class="bx  bx-x"></i> </button>
+    </div>
+    <div class="showpic" id="show8">
+        <button class="prev-btn1" id="prev"> <i class="bx bx-chevron-left"></i></button>
+        <img src="./pic/img8.jpeg" alt="">
+        <button class="next-btn" id="next8"> <i class="bx bx-chevron-right"></i></button>
+        <button class="close-btn" id="close8"> <i class="bx  bx-x"></i> </button>
+    </div>
+
+
+    <script src="index.js"></script>
 </body>
 
 </html>
